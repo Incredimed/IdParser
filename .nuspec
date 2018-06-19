@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IdParser</id>
+    <version>$version$</version>
+    <title>IdParser</title>
+    <authors>c0shea, IncrediMed, Michael Rice</authors>
+    <owners>IncrediMed</owners>
+    <licenseUrl>https://github.com/terrariumapp/terrarium-sdk/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/Incredimed/IdParser</projectUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/7890777?s=140</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ID Parser can be used to parse AAMVA-compliant driver's licenses and ID cards into objects that you can work with.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &#x00A9; IncrediMed.  All rights reserved.</copyright>
+    <tags>aamva</tags>
+  </metadata>
+  <files>
+	<file src="bin\Release\IdParser.dll" target="lib\netstandard2.0\IdParser.dll" />
+    <file src="bin\Release\IdParser.xml" target="lib\netstandard2.0\IdParser.xml" />
+  </files>
+</package>
